@@ -9,28 +9,28 @@ const services = [
     title: 'Gold Jewellery',
     description: 'Pure 22k and 24k gold masterpieces reflecting timeless elegance.',
     icon: <GiGoldBar className="text-5xl text-gold mb-4" />,
-    image: 'https://images.unsplash.com/photo-1629224316810-9d8805b95e76?q=80&w=2070&auto=format&fit=crop'
+    image: 'https://images.unsplash.com/photo-1629224316810-9d8805b95e76?q=80&w=500&auto=format&fit=crop'
   },
   {
     id: 2,
     title: 'Diamond Collection',
     description: 'Brilliant cut diamonds set in premium platinum and white gold.',
     icon: <FaGem className="text-5xl text-gold mb-4" />,
-    image: 'https://images.unsplash.com/photo-1596944924616-7b38e7cfac36?q=80&w=1974&auto=format&fit=crop'
+    image: 'https://images.unsplash.com/photo-1596944924616-7b38e7cfac36?q=80&w=500&auto=format&fit=crop'
   },
   {
     id: 3,
     title: 'Bridal Sets',
     description: 'Complete royal sets crafted specially for your perfect day.',
     icon: <GiNecklace className="text-5xl text-gold mb-4" />,
-    image: 'https://images.unsplash.com/photo-1599643477877-530eb83abc8e?q=80&w=1974&auto=format&fit=crop'
+    image: 'https://images.unsplash.com/photo-1599643477877-530eb83abc8e?q=80&w=500&auto=format&fit=crop'
   },
   {
     id: 4,
     title: 'Custom Designs',
     description: 'Bring your vision to life with our bespoke jewellery service.',
     icon: <GiDiamondRing className="text-5xl text-gold mb-4" />,
-    image: 'https://images.unsplash.com/photo-1589674781759-c21c37956a44?q=80&w=2070&auto=format&fit=crop'
+    image: 'https://images.unsplash.com/photo-1589674781759-c21c37956a44?q=80&w=500&auto=format&fit=crop'
   }
 ];
 

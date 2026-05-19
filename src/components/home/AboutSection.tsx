@@ -17,10 +17,10 @@ const AboutSection = () => {
           >
             <div className="relative z-10 p-2">
               <img 
-                src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?q=80&w=1000&auto=format&fit=crop" 
+                src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?q=80&w=600&auto=format&fit=crop" 
                 alt="Luxury Jewellery Collection" 
-                width="1000"
-                height="667"
+                width="600"
+                height="400"
                 loading="lazy"
                 className="w-full h-auto object-cover rounded-sm shadow-2xl bg-zinc-900"
               />
@@ -52,7 +52,7 @@ const AboutSection = () => {
               Our dedication to purity, ethical sourcing, and innovative design sets us apart. From the intricate polki work of royal Rajasthan to modern minimalist diamonds, every piece reflects our commitment to unparalleled quality.
             </p>
             <div className="flex items-center gap-4">
-              <img src="https://ui-avatars.com/api/?name=Founder&background=D4AF37&color=000" alt="Founder Signature" className="w-12 h-12 rounded-full" />
+              <img src="https://ui-avatars.com/api/?name=Founder&background=D4AF37&color=000" alt="Founder Signature" className="w-12 h-12 rounded-full" width="48" height="48" loading="lazy" />
               <div>
                 <h4 className="font-semibold text-white">Master Jeweller</h4>
                 <p className="text-white/50 text-sm">Jaipur, Rajasthan</p>

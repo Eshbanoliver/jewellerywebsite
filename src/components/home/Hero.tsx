@@ -7,7 +7,7 @@ const Hero = () => {
       {/* Background with blur effect */}
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-b from-zinc-950/80 via-zinc-950/60 to-zinc-950 z-10" />
-        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1599643478524-fb66f70a0066?q=80&w=2069&auto=format&fit=crop')] bg-cover bg-center" />
+        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1599643478524-fb66f70a0066?q=80&w=1400&auto=format&fit=crop')] bg-cover bg-center" />
       </div>
 
       {/* Content */}

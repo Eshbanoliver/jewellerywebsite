@@ -24,11 +24,11 @@ const WhyChooseUs = () => {
           >
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1601121141461-9d6647bca1ed?q=80&w=1000&auto=format&fit=crop" 
+                src="https://images.unsplash.com/photo-1601121141461-9d6647bca1ed?q=80&w=600&auto=format&fit=crop" 
                 alt="Jewellery Making" 
                 loading="lazy"
-                width="1000"
-                height="667"
+                width="600"
+                height="400"
                 className="w-full h-auto object-cover rounded-sm shadow-2xl grayscale hover:grayscale-0 transition-all duration-700 bg-zinc-900"
               />
               <div className="absolute inset-0 border-2 border-gold/40 m-4 pointer-events-none" />
