@@ -17,9 +17,12 @@ const AboutSection = () => {
           >
             <div className="relative z-10 p-2">
               <img 
-                src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?q=80&w=2070&auto=format&fit=crop" 
+                src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?q=80&w=1000&auto=format&fit=crop" 
                 alt="Luxury Jewellery Collection" 
-                className="w-full h-auto object-cover rounded-sm shadow-2xl"
+                width="1000"
+                height="667"
+                loading="lazy"
+                className="w-full h-auto object-cover rounded-sm shadow-2xl bg-zinc-900"
               />
             </div>
             {/* Glassmorphism decorative card */}
