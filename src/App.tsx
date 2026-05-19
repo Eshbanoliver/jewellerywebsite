@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import FloatingButtons from './components/FloatingButtons';
 import Home from './pages/Home';
 import About from './pages/About';
 import Services from './pages/Services';
@@ -10,7 +11,7 @@ import Contact from './pages/Contact';
 function App() {
   return (
     <Router>
-      <div className="min-h-screen flex flex-col bg-zinc-950 text-white">
+      <div className="min-h-screen flex flex-col bg-zinc-950 text-white font-sans">
         <Navbar />
         <main className="flex-grow">
           <Routes>
@@ -22,6 +23,7 @@ function App() {
           </Routes>
         </main>
         <Footer />
+        <FloatingButtons />
       </div>
     </Router>
   );
