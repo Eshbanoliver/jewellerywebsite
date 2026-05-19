@@ -29,7 +29,7 @@ const FaqSection = () => {
   };
 
   return (
-    <section className="py-24 bg-zinc-950 relative">
+    <section className="py-24 bg-zinc-950/45 backdrop-blur-md relative">
       <div className="container mx-auto px-6 max-w-4xl">
         <div className="text-center mb-16">
           <span className="text-gold tracking-[0.3em] uppercase text-sm font-semibold mb-4 block">Got Questions?</span>

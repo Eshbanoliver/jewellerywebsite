@@ -10,7 +10,7 @@ const values = [
 
 const CoreValues = () => {
   return (
-    <section className="py-24 bg-zinc-900 relative overflow-hidden">
+    <section className="py-24 bg-zinc-900/40 backdrop-blur-md relative overflow-hidden">
       <div className="absolute left-0 bottom-0 w-[400px] h-[400px] bg-gold/5 rounded-full blur-[100px] pointer-events-none" />
       
       <div className="container mx-auto px-6">

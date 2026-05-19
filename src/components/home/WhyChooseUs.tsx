@@ -12,7 +12,7 @@ const reasons = [
 
 const WhyChooseUs = () => {
   return (
-    <section className="py-24 bg-zinc-950 relative">
+    <section className="py-24 bg-zinc-950/45 backdrop-blur-md relative">
       <div className="container mx-auto px-6">
         <div className="flex flex-col-reverse lg:flex-row gap-16 items-center">
           <motion.div 

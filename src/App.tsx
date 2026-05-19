@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import FloatingButtons from './components/FloatingButtons';
+import BackgroundBlobs from './components/BackgroundBlobs';
 
 const Home = lazy(() => import('./pages/Home'));
 const About = lazy(() => import('./pages/About'));
@@ -20,21 +21,26 @@ const PageLoader = () => (
 function App() {
   return (
     <Router>
-      <div className="min-h-screen flex flex-col bg-zinc-950 text-white font-sans">
-        <Navbar />
-        <main className="flex-grow">
-          <Suspense fallback={<PageLoader />}>
-            <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/about" element={<About />} />
-              <Route path="/services" element={<Services />} />
-              <Route path="/testimonials" element={<Testimonials />} />
-              <Route path="/contact" element={<Contact />} />
-            </Routes>
-          </Suspense>
-        </main>
-        <Footer />
-        <FloatingButtons />
+      <div className="min-h-screen flex flex-col bg-zinc-950 text-white font-sans relative overflow-hidden">
+        {/* Animated background blobs */}
+        <BackgroundBlobs />
+        
+        <div className="relative z-10 flex flex-col min-h-screen">
+          <Navbar />
+          <main className="flex-grow">
+            <Suspense fallback={<PageLoader />}>
+              <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/services" element={<Services />} />
+                <Route path="/testimonials" element={<Testimonials />} />
+                <Route path="/contact" element={<Contact />} />
+              </Routes>
+            </Suspense>
+          </main>
+          <Footer />
+          <FloatingButtons />
+        </div>
       </div>
     </Router>
   );

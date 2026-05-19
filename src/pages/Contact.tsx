@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div className="min-h-screen">
       {/* Page Header */}
-      <section className="pt-32 pb-16 bg-zinc-950 relative overflow-hidden">
+      <section className="pt-32 pb-16 bg-zinc-950/45 backdrop-blur-md relative overflow-hidden">
         <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1599643478524-fb66f70a0066?q=80&w=2069&auto=format&fit=crop')] bg-cover bg-center opacity-10" />
         <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/80 to-transparent" />
         <div className="container mx-auto px-6 relative z-10 text-center">
@@ -14,7 +14,7 @@ const Contact = () => {
         </div>
       </section>
 
-      <section className="py-24 bg-zinc-950">
+      <section className="py-24 bg-zinc-950/45 backdrop-blur-md">
         <div className="container mx-auto px-6">
           <div className="max-w-3xl mx-auto glass-card p-8 md:p-12 relative overflow-hidden">
             <div className="absolute top-0 right-0 w-64 h-64 bg-gold/10 rounded-full blur-3xl pointer-events-none" />

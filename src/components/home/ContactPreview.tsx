@@ -2,7 +2,7 @@ import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
 
 const ContactPreview = () => {
   return (
-    <section className="py-24 bg-zinc-900 border-t border-white/5 relative">
+    <section className="py-24 bg-zinc-900/40 backdrop-blur-md border-t border-white/5 relative">
       <div className="container mx-auto px-6">
         <div className="flex flex-col lg:flex-row gap-16">
           <div className="w-full lg:w-1/2">

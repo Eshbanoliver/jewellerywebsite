@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 
 const AboutSection = () => {
   return (
-    <section className="py-24 bg-zinc-950 relative overflow-hidden">
+    <section className="py-24 bg-zinc-950/45 backdrop-blur-md relative overflow-hidden">
       {/* Decorative gradient blob */}
       <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-gold/5 rounded-full blur-[100px] pointer-events-none" />
       
