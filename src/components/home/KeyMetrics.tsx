@@ -11,7 +11,7 @@ const KeyMetrics = () => {
   return (
     <section className="py-16 bg-zinc-900/50 border-y border-white/5 relative">
       <div className="container mx-auto px-6">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 divide-x divide-white/10">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 divide-x-0 md:divide-x divide-white/10">
           {metrics.map((metric, index) => (
             <motion.div
               key={metric.id}
